@@ -9,8 +9,8 @@ This script takes as args a CSV file and a GlycoCT file.
 It prints on stdout the corresponding INP format for POLYS tool.
 
 ## Important to know
-* This script doesn't support ALT, UND and ISO section of GlycoCT
-* This script support REP section but not nested repetition
+* This script doesn't support ALT, UND and ISO sections of GlycoCT
+* This script support REP sections but not nested repetitions
 * This script only converts GAG's monosaccharides
 * In order to build a 3D structure, POLYS need to have all information about monosaccharides: alpha/beta, L/D, etc...
 * Iduronic acid can have many conformations (1C4, 4C1, 2S0). We have not this information in GlycoCT format but we need it for POLYS. Thus we decided to choose 1C4 conformation by default.
